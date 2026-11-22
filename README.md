@@ -1,27 +1,9 @@
-# Computer Organization & Assembly Language (COAL) Project
+Project Overview
+A complete Sudoku game developed in 32-bit x86 Assembly Language (MASM) for the Computer Organization and Assembly Language (COAL) course. The program implements a 9×9 Sudoku board directly at the register and memory level, handling board state storage, user input validation, puzzle selection, and win-state detection without high-level abstractions.
 
-## Overview
-A 32-bit x86 Assembly Language project developed using MASM and the Irvine32 library for the Computer Organization and Assembly Language (COAL) course.
+Key Features
 
-**[Replace with 2–3 sentences describing what your program does—for example: a console-based game, management system, or algorithm visualizer—and its main objective.]**
-
----
-
-## Features
-- **[Feature 1]:** [Briefly describe a core functionality, e.g., interactive console menu and user input handling]
-- **[Feature 2]:** [Briefly describe another key feature, e.g., register-level arithmetic, memory management, or screen rendering]
-- **[Feature 3]:** [Briefly describe any additional mechanics, scoring, or file/data handling]
-
----
-
-## Tech Stack & Tools
-- **Language:** x86 Assembly (MASM)
-- **Library:** Irvine32
-- **IDE:** Visual Studio 2022 / 2026 (Windows)
-
----
-
-## How to Run
-1. Clone or download this repository:
-   ```bash
-   git clone [https://github.com/Warishawaqar/Coal-Project.git](https://github.com/Warishawaqar/Coal-Project.git)
+* 9×9 Sudoku Board Rendering: Displays a structured grid distinguishing pre-filled fixed digits from user-editable cells.
+* Multiple Puzzle Banks: Loads preset Sudoku boards so players can play different puzzles across sessions.
+* Constraint & Move Validation: Verifies row, column, and 3×3 subgrid rules in real time to check valid entries and detect puzzle completion.
+* Interactive Controls: Supports smooth cell navigation, number entry, cell clearing, and board reset functionality.
